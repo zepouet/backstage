@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: em-team1-prod-002
+spec:
+  type: service
+  owner: group:cicc
+  lifecycle: production
