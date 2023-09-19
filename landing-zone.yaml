@@ -1,0 +1,17 @@
+apiVersion: landingzone.afkl.com/v1
+kind: LandingZoneConfig
+spec:
+  resource-groups:
+    - name: rg-team1-app-sharedservices-nonprod-frc-001
+      location: frc
+      repositories:
+        - name: afkl-airspace/lz-infra-em-team1-nonprod-001
+          environments:
+            - infra
+    - name: rg-team1-app-app1-nonprod-frc-001    
+      location: frc
+      repositories:
+        - name: afkl-airspace/lz-infra-em-team1-nonprod-001
+          environments:
+            - infra            
+            
