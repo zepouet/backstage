@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-my-plugin-component
+  name: my-xxx-plugin-component
 spec:
   lifecycle: production
   owner: my-team
